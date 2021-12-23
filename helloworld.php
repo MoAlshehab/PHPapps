@@ -1,7 +1,6 @@
 <?php 
-echo "Helloworld !\n";
-echo "Helloworld !\n";
-echo "Helloworld !\n";
-echo "Helloworld !\n";
-echo "Helloworld !\n";
-?> 
+$Mo="het is een test van veriabele zo dat ik het snapt " ;
+echo $Mo;
+echo $Mo;
+echo $Mo;
+?>
