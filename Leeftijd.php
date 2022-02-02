@@ -1,13 +1,19 @@
 <?php 
-$leeftijd = 27;
+$leeftijd =27;
 $ouderdanzestien = $leeftijd - 16;
-echo "je bent ".$ouderdanzestien. "jaar ouder dan 16\n";
-{echo "<br>";}
+echo "je bent ".$ouderdanzestien. " jaar ouder dan 16 .\n";
+{echo "\n";} 
 $jongerdanvijftig = 50- $leeftijd ;
-echo "je bent" .$jongerdanvijftig."jaar jonger dan 50 \n";
+echo "je bent " .$jongerdanvijftig." jaar jonger dan 50 .\n";
 {echo "<br>";}
-$jongerdanvijfenzeventig = 75-$leeftijd ;
-echo "jij bent".$jongerdanvijfenzeventig. "jaar jonger dan 75\n";
+$hetduurt= 67-$leeftijd;
+echo "Het duurt nog " .$hetduurt. " tot dat je 67 jaar wordt .\n";
+{ echo "<br>";}
+{ echo "<br>";}
+$tothonderd = 100-$leeftijd;
+echo "Het duurt nog ".$tothonderd. " jaren voordta je 100 word .\n";
+{ echo "<hr>";}
+
 
 /* hIEr KRIJG IK HET OF HET FOUT IS OF NIET 1111
 $data =1.0;
@@ -71,7 +77,7 @@ echo "<h1>$telen * 9 = $ruseltaat </h1>";
 }*/
 
 
-/*DAT IS DE TWEEDE MANIET OOK 2222
+/*DAT IS DE TWEEDE MANIer OOK 2222
 $telen1=1;
 while($telen1<=6){
 echo "<h1> $telen1 * 9 =" . $telen1*9 . "<h1>";
@@ -85,5 +91,5 @@ $test=1;
 do{
     echo "<h5> HET IS GELUKT <h5>";
     ++$test;
-}while($test<=3);
+}while($test<=4);
 ?>
