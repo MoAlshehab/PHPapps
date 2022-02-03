@@ -1,7 +1,7 @@
 <?php
-echo "Eisen: Jaartal moet tussen 1900 en 2100\n";
+echo "Eisen: Jaartal moet tussen 100 en 200\n";
 $jaar = readline("Jaar: ");
-if($jaar<1900 || $jaar>2100){
+if($jaar<100|| $jaar>200){
     echo "Door u gevoerde jaar zit niet tussen de eisen";
     exit;
 }
