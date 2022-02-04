@@ -28,7 +28,14 @@ if($oke =="Mo eerste code")
 else{echo"het is fout";}
 {echo "<br>";}
 
+/* $begin=1;
+ $maximum=10;
+ $tekst="Hallo,World Van deltion hier is Zwolle!!\n";
+ for ($teller=$begin;$teller<=$maximum;$teller++){
+     echo $tekst;
+ }
 
+*/
 
 
 
